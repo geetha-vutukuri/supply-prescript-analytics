@@ -79,3 +79,23 @@ This module demonstrates how optimization techniques can be used to:
 Improve operational efficiency
 Reduce delays
 Support intelligent decision-making in supply chain/logistics systems
+
+
+## Week 2 – Mathematical Optimization
+
+In Week 2, I implemented the **Mathematical Optimization and Prescriptive Analytics** component of the Supply Prescript project.
+
+### Key Activities
+
+* Defined business constraints such as **maximum budget, delivery time, and inventory requirements**.
+* Implemented a **SciPy Linear Programming** model to optimize possible supply chain decisions.
+* Generated the **top 3 alternative actions** when a shipment delay was predicted.
+* Compared different strategies based on their **cost and delivery speed**.
+* Developed a **Prescriptive UI** to display the recommended actions as easy-to-understand cards.
+* Clearly highlighted the **Cost vs. Speed trade-offs** for each recommended option.
+* Provided multiple strategies such as **Low Cost, Fast Delivery, and Balanced** options to support business decision-making.
+
+### Outcome
+
+The optimization engine successfully generates alternative actions based on defined business constraints. The Prescriptive UI presents these options along with their **cost and speed trade-offs**, helping analysts choose the most suitable action when a delay is predicted.
+
