@@ -99,3 +99,21 @@ In Week 2, I implemented the **Mathematical Optimization and Prescriptive Analyt
 
 The optimization engine successfully generates alternative actions based on defined business constraints. The Prescriptive UI presents these options along with their **cost and speed trade-offs**, helping analysts choose the most suitable action when a delay is predicted.
 
+
+
+## Week 3 – The Closed Loop
+
+In Week 3, I implemented the **Closed Loop evaluation system** for the Supply Prescript project.
+
+### Key Activities
+
+* Developed an evaluation script to compare the **predicted outcome/cost of the selected decision** with the **actual historical outcome**.
+* Stored the actual business outcomes and feedback for further analysis.
+* Evaluated the performance of the AI-generated recommendations based on the difference between predicted and actual results.
+* Implemented a **Feedback UI** to track the effectiveness of the recommendations.
+* Added **Decision ROI analytics** to monitor how frequently the AI's recommendations resulted in positive business outcomes.
+* Stored multiple decision outcomes to support continuous evaluation and improvement of the system.
+
+### Outcome
+
+The Closed Loop system successfully records actual outcomes and evaluates AI recommendations against real results. This provides feedback that can be used to measure **Decision ROI** and improve future recommendations.
