@@ -117,3 +117,23 @@ In Week 3, I implemented the **Closed Loop evaluation system** for the Supply Pr
 ### Outcome
 
 The Closed Loop system successfully records actual outcomes and evaluates AI recommendations against real results. This provides feedback that can be used to measure **Decision ROI** and improve future recommendations.
+
+
+
+## Week 4 – Continuous Learning & Workflow Refinement
+
+In Week 4, I implemented the **Continuous Learning pipeline** to enable the Supply Prescript system to learn from discrepancies identified during the Closed Loop evaluation.
+
+### Key Activities
+
+* Implemented a **Continuous Learning pipeline** to monitor differences between predicted and actual outcomes.
+* Used feedback and evaluation results to identify significant **prediction discrepancies**.
+* Configured the system to trigger **XGBoost model retraining** when the prediction error exceeds the defined threshold.
+* Retrained the model using updated feedback and historical outcome data.
+* Validated the newly retrained model to ensure it was ready for future predictions.
+* Refined and polished the overall **Supply Prescript workflow** from prediction to optimization, execution, feedback, and continuous learning.
+* Improved the workflow so that the analyst actively participates in the **AI-driven decision-making process** rather than simply observing the recommendations.
+
+### Outcome
+
+The Supply Prescript system now supports a **closed-loop continuous learning workflow**. Feedback from actual business outcomes can be used to identify prediction errors and retrain the XGBoost model, allowing the system to improve over time and support more effective supply chain decision-making.
